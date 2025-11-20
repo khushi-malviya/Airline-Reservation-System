@@ -37,14 +37,14 @@ This Java application simulates a basic airline reservation system where users c
    ```bash
    javac AirlineReservationSystem.java
    
-Run the application:
-bash
-java AirlineReservationSystem
+3. **Run the application:**
+   ```bash
+   java AirlineReservationSystem
 
-💻 How to Use
+### 💻 How to Use
 Launch the application - The main menu will be displayed
 
-Choose from the following options:
+**Choose from the following options:**
 
 Press 1 to reserve a seat
 
@@ -52,7 +52,7 @@ Press 2 to view all seat statuses
 
 Press 3 to exit the application
 
-For seat reservation:
+**For seat reservation:**
 
 Select option 1 from the main menu
 
@@ -60,93 +60,84 @@ Enter the desired seat number (1-10)
 
 Receive confirmation or error message based on availability
 
-To check seat availability:
+**To check seat availability:**
 
 Select option 2 to see the current status of all seats
 
-🏗️ System Architecture
+**🔧 Code Structure**
 
-AirlineReservationSystem
-├── seats[] (boolean array)
-├── main(String[] args)
-│   ├── Menu Display Loop
-│   ├── User Input Handling
-│   └── Method Invocation
-├── reserveSeat()
-│   ├── Seat Availability Check
-│   ├── Reservation Logic
-│   └── User Feedback
-└── viewSeats()
-    ├── Array Iteration
-    └── Status Display
+- Main Class: AirlineReservationSystem
 
-🔧 Code Structure
-Main Class: AirlineReservationSystem
+ Core Data: seats[] - boolean array tracking reservation status
 
-Core Data: seats[] - boolean array tracking reservation status
+#### Key Methods:
 
-Key Methods:
+- main(): Program entry point and main control loop
 
-main(): Program entry point and main control loop
+- reserveSeat(): Handles seat booking logic
 
-reserveSeat(): Handles seat booking logic
+- viewSeats(): Displays current seat map
 
-viewSeats(): Displays current seat map
+### ⚠️ Limitations & Learning Scope
 
-⚠️ Limitations & Learning Scope
 This is a educational implementation with the following limitations:
 
-Volatile Storage: All data is lost when program terminates
+- Volatile Storage: All data is lost when program terminates
 
-Single Flight: Supports only one flight instance
+- Single Flight: Supports only one flight instance
 
-Basic Error Handling: Limited input validation
+- Basic Error Handling: Limited input validation
 
-No User Authentication: No login/security features
+- No User Authentication: No login/security features
 
-Console Interface: No graphical user interface
+- Console Interface: No graphical user interface
 
-No Persistence: No database integration
+- No Persistence: No database integration
 
-🎯 Learning Objectives Achieved
-Array manipulation and management
+### 🎯 Learning Objectives Achieved
 
-Console-based user input/output handling
+- Array manipulation and management
 
-Conditional logic implementation
+- Console-based user input/output handling
 
-Method decomposition and modular programming
+- Conditional logic implementation
 
-Loop structures and control flow
+- Method decomposition and modular programming
 
-Basic program state management
+- Loop structures and control flow
 
-🔮 Future Enhancements
+- Basic program state management
+
+### 🔮 Future Enhancements
+
 The following features can be added to extend this project:
 
-Database integration for data persistence
+- Database integration for data persistence
 
-Graphical User Interface (GUI) using Swing/JavaFX
+- Graphical User Interface (GUI) using Swing/JavaFX
 
-Multiple flight management
+- Multiple flight management
 
-Passenger information storage
+- Passenger information storage
 
-Booking cancellation feature
+- Booking cancellation feature
 
-Payment gateway integration
+- Payment gateway integration
 
-User authentication system
+- User authentication system
 
-Advanced input validation and error handling
+- Advanced input validation and error handling
 
-Flight scheduling capabilities
+- Flight scheduling capabilities
 
-Email confirmation system
+- Email confirmation system
 
-👨‍💻 Developer Information
+### 👨‍💻 Developer Information
+
 Developed By: Khushi Malviya
+
 Institution: VIT Bhopal University
+
 Project Type: Academic Java Application
 
 
